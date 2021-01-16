@@ -20,7 +20,7 @@ _The code below can be changed in any way but the name of the service must remai
 namespace ringba_code_test
 {
 
-    public class HighlyOptimizedThreadSafeInMemoryDuplicateCheckService : IDuplicateCheckService
+    public class HighlyOptimizedThreadSafeInMemoryDuplicateCheckService 
     {
        
         public bool IsThisTheFirstTimeWeHaveSeen(int id)
