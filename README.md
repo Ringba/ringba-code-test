@@ -8,6 +8,9 @@ Please fill in the implementation of the `HighlyOptimizedThreadSafeInMemoryDupli
 - Service can not tolerate duplicates but can tolerate false positives with an error rate equal or less than 1%
 - Service will not utilize any third-party libraries and all code must be native .net core 5
 
+*** DO NOT MAKE PUBLIC FORKS OF THIS REPO ***
+
+
 _The code below can be changed in any way but the name of the service must remain the same._
 
 
