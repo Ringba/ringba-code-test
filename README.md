@@ -1,7 +1,9 @@
 # Ringba Algorithm Code Test
 ***DO NOT MAKE PUBLIC FORKS OF THIS REPO***
 
-Please fill in the implementation of the `HighlyOptimizedThreadSafeInMemoryDuplicateCheckService` service. This service only job is to report if a id has been seen before. The service must meet the following specs.
+Please fill in the implementation of the `HighlyOptimizedThreadSafeInMemoryDuplicateCheckService` service. This service's only job is keep track in memory if a given id has been seen before. 
+
+The service must meet the following specs.
 - Service is in memory and does not persist data
 - Service is thread safe
 - Service is optimized for *memory*, *CPU*, and *locking*
